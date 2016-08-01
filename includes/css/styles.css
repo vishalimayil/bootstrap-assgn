@@ -1,0 +1,192 @@
+/*
+
+My Custom CSS
+=============
+
+Author:  Brad Hussey
+Updated: August 2013
+Notes:	 Hand coded for Udemy.com
+
+*/
+
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+
+   #features{
+     margin-top: 1cm;
+     text-align: center;
+   }
+   #features img{
+     margin-top: 1cm;
+
+   }
+   #features h3{
+
+}
+#featuresbutton{
+  margin-bottom: 1cm;
+}
+body{
+   overflow-x: hidden;
+}
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+#searchInput
+  {
+    width:220px;
+    margin-top: 10px;
+
+
+  }
+#button{
+  margin-top: 10px;
+  margin-right: 1cm;
+
+}
+li a{
+  margin-top: 10px;
+  font-size: 20px;
+}
+.navbar-brand{
+  padding: 20px 20px;
+}
+
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+ #mycarousel{
+     margin-top: 80px;
+ }
+
+#mycarousel .item{height:500px;}
+
+#slide1{
+ background: url('../../images/imag/f1md.jpg') top center no-repeat;
+}
+
+#slide2{
+ background: url('../../images/imag/male1.jpg') top center no-repeat;
+}
+
+#slide3{
+ background: url('../../images/imag/kid1.jpg') top center no-repeat;
+}
+
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+#myinfo{
+    text-align: justify;
+      margin: 0 10px 10px 0;
+}
+#details p{
+  text-align:left;
+  font-size: .4cm;
+}
+#details h3{
+  text-align: center;
+}
+#tab4{
+  text-align: left;
+}
+#move{
+  margin-top: 9cm;
+}
+#moreCourses{
+  text-align: center;
+  margin-top: 4cm;
+}
+footer{
+  background:lightblue;
+  color:black;
+  font-size: 20px;
+  padding-left: 40px;
+  text-align: left;
+  margin-top:1cm;
+  height: 8cm;
+
+}
+#copyrights{
+  margin-top: .5cm;
+}
+
+#visa{
+  margin-right: 1cm;
+  margin-top: 2cm;
+}
+.well .page-header h1,h2{
+  text-align: center;
+  margin-top: 0;
+  margin-top: 1cm;
+}
+.thumbnails{
+  width:100%;
+}
+.hi{
+  text-align: center;
+  margin-left: 40px;
+  margin-top: -300px;
+  font-size:40px;
+}
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.row {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+   /* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+
+  #mycarousel .item{height:290px;}
+
+  #slide1{
+   background: url('../../images/imag/f1sm.jpg') top center no-repeat;
+  }
+
+  #slide2{
+   background: url('../../images/imag/malesm.jpg') top center no-repeat;
+  }
+
+  #slide3{
+   background: url('../../images/imag/kidsm.jpg') top center no-repeat;
+  }
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+  #mycarousel .item{height:500px;}
+
+  #slide1{
+   background: url('../../images/imag/f1lg.jpg') top center no-repeat;
+  }
+
+  #slide2{
+   background: url('../../images/imag/malelg.jpg') top center no-repeat;
+  }
+
+  #slide3{
+   background: url('../../images/imag/kid.jpg') top center no-repeat;
+  }
+}
